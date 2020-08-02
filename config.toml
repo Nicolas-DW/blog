@@ -1,4 +1,4 @@
-baseURL = "http://youstack.space/"
+baseURL = "https://youstack.space/"
 languageCode = "en-us"
 title = "YouStack"
 theme = "bento"
