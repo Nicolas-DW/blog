@@ -5,18 +5,97 @@
     <description>Recent content in Posts on YouStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Aug 2020 10:53:10 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2020 23:25:40 +0200</lastBuildDate>
     
         <atom:link href="https://youstack.space/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Test</title>
-      <link>https://youstack.space/posts/test/</link>
-      <pubDate>Sun, 02 Aug 2020 10:53:10 +0200</pubDate>
+      <title>Notes and links about no code</title>
+      <link>https://youstack.space/posts/no-code/</link>
+      <pubDate>Mon, 03 Aug 2020 23:25:40 +0200</pubDate>
       
-      <guid>https://youstack.space/posts/test/</guid>
-      <description></description>
+      <guid>https://youstack.space/posts/no-code/</guid>
+      <description>&lt;p&gt;No code is a new trend. It&amp;rsquo;s not the most optimized way to build a dev project, but it&amp;rsquo;s a very nice way to make a POC, test some ideas or even making an app that doesn&amp;rsquo;t require a high level of customization (it&amp;rsquo;s often pre-build blocks of logic) and doesn&amp;rsquo;t need a particulary low time/response ratio (compared to custom apps).&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m really concerned about not spending (and losing) time on tiny technical details that nobody cares. It&amp;rsquo;s important to think about giving a solution, not building your geeky ego (just kidding).&lt;/p&gt;
+&lt;p&gt;No code can provide an efficient way for it, if you have to provide something in no time, with a low risk of something buggy.&lt;/p&gt;
+&lt;p&gt;With the revolution of &amp;lsquo;all sass&amp;rsquo;, there is plenty ready to use platforms that give you the tools to create an app/API/webb-app with no or low code writing.&lt;/p&gt;
+&lt;p&gt;I will voluntarily ignore the closed, non open-source problematic of all this, because it&amp;rsquo;s a subject on it&amp;rsquo;s own. You won&amp;rsquo;t be able to publish (alaIk) your no code app on sharing platforms like github. You won&amp;rsquo;t be able to access to the code source and you will have some limitations. It can also be considered to potentially cost too much, but you can&amp;rsquo;t have everything&amp;hellip; for the moment ^^&amp;rsquo;&lt;/p&gt;
+&lt;p&gt;The first tool I tried was Bubble:&lt;br&gt;
+&lt;a href=&#34;https://bubble.io/home&#34;&gt;https://bubble.io/home&lt;/a&gt; &lt;br&gt;
+It&amp;rsquo;s online since few years know and it has grown to something mature enough to build a wide range of solutions.&lt;br&gt;
+Limitations are:&lt;br&gt;
+You can&amp;rsquo;t easilly make a PWA, because it&amp;rsquo;s not integrated. You can tweak, of course, but I&amp;rsquo;m not sure that, for the moment, it will be persistent in time (someone built a plugin available on the platform but it&amp;rsquo;s deprecated since the dev stopped the maintenance). So it&amp;rsquo;s web-app &amp;lsquo;alaways online&amp;rsquo; oriented.&lt;br&gt;
+If you want to make API requests, you will have to &amp;lsquo;connect&amp;rsquo; every actions, so you can forget to make HTTP request on a local network because of the &amp;lsquo;API connector&amp;rsquo; is only accepting online requests. (even in the setup)&lt;br&gt;
+Most of the plugins will ask you to pay to use them.&lt;/p&gt;
+&lt;p&gt;Second one is Adalo:&lt;br&gt;
+&lt;a href=&#34;https://www.adalo.com&#34;&gt;https://www.adalo.com&lt;/a&gt; &lt;br&gt;
+This one is more mobile application oriented. Customization seems shallower than Bubble, but it will make the creation of the app maybe less messy and cleaner.&lt;br&gt;
+One of the downsides is that you have to pay if you want something usefull for anyone. The free plan is only to test the platform.&lt;/p&gt;
+&lt;p&gt;A fun solution for no code is Glide:&lt;br&gt;
+&lt;a href=&#34;https://www.glideapps.com&#34;&gt;https://www.glideapps.com&lt;/a&gt; &lt;br&gt;
+You will make apps based on informations you&amp;rsquo;ve written in a google sheet. Database and the application&amp;rsquo;s logic will depend on the way you filled your google sheet.&lt;br&gt;
+I found it quite fun, but we can clearly measure the no code limitation &amp;ldquo;by design&amp;rdquo;. You will not be able to produce something different from one project to another. Most likely a clone, with different datas.&lt;/p&gt;
+&lt;p&gt;Other platforms and solutions:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bravostudio.app&#34;&gt;https://www.bravostudio.app&lt;/a&gt; &lt;br&gt;
+Where you can directly export your Figma design to Android and Apple app.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.boundlesslabs.com/&#34;&gt;https://www.boundlesslabs.com/&lt;/a&gt; &lt;br&gt;
+Website in a snap!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://carrd.co&#34;&gt;https://carrd.co&lt;/a&gt; &lt;br&gt;
+A famous solution to build beautifull onepage websites.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://webflow.com/&#34;&gt;https://webflow.com/&lt;/a&gt; &lt;br&gt;
+Make professional websites, with team collaboration, merge development and prototyping. Seems really powerfull!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://jasonette.com&#34;&gt;https://jasonette.com&lt;/a&gt; &lt;br&gt;
+Make Android and Apple apps with Json files!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.budibase.com&#34;&gt;https://www.budibase.com&lt;/a&gt; &lt;br&gt;
+Omagad! Open source low-code platform!!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.voiceflow.com&#34;&gt;https://www.voiceflow.com&lt;/a&gt; &lt;br&gt;
+Heck! Design, prototype and build voice apps&lt;/p&gt;
+&lt;p&gt;Other usefull to-discover links (related to the no code subject): &lt;br&gt;
+&lt;a href=&#34;https://www.pwabuilder.com/&#34;&gt;https://www.pwabuilder.com/&lt;/a&gt;
+&lt;a href=&#34;https://zapier.com&#34;&gt;https://zapier.com&lt;/a&gt;
+&lt;a href=&#34;https://www.integromat.com/&#34;&gt;https://www.integromat.com/&lt;/a&gt;
+&lt;a href=&#34;https://airtable.com&#34;&gt;https://airtable.com&lt;/a&gt;
+&lt;a href=&#34;https://www.typeform.com&#34;&gt;https://www.typeform.com&lt;/a&gt;
+&lt;a href=&#34;https://payhere.co&#34;&gt;https://payhere.co&lt;/a&gt;
+&lt;a href=&#34;https://www.memberstack.io&#34;&gt;https://www.memberstack.io&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A cool community for no code: &lt;a href=&#34;https://www.makerpad.co&#34;&gt;https://www.makerpad.co&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks for reading! Take care.&lt;/p&gt;
+&lt;p&gt;– English is not my native language, so please excuse the many mistakes I can make while writing… –&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Some rules I try to follow</title>
+      <link>https://youstack.space/posts/rules_1/</link>
+      <pubDate>Sun, 02 Aug 2020 19:45:10 +0200</pubDate>
+      
+      <guid>https://youstack.space/posts/rules_1/</guid>
+      <description>&lt;p&gt;#1 - Don&amp;rsquo;t try to reach perfection&lt;/p&gt;
+&lt;p&gt;Often I used to be afraid of doing things that were not perfect. &lt;br&gt;
+I lost some great occasions to make things. Because I considered I wasn&amp;rsquo;t ready.&lt;br&gt;
+Truth is, if you think that way, you&amp;rsquo;ll never start anything. Allow yourself not being what you dreamed of, but to lead the way to become, some day, a better person. And it starts NOW.&lt;/p&gt;
+&lt;p&gt;#2 - Don&amp;rsquo;t be too arsh about yourself&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;re not your ennemy. You&amp;rsquo;re your best friend. Be your first supporter/fan. If you don&amp;rsquo;t believe in yourself, who&amp;rsquo;s gonna be?&lt;br&gt;
+You&amp;rsquo;re a great person, I know it. The fact that you&amp;rsquo;re a living person, with billions of connections in your brain, the fact that you doubt about you and the fact that you try to improve yourself; all that prove that you are a miracle.&lt;br&gt;
+Don&amp;rsquo;t EVER waste your time believing that you don&amp;rsquo;t worth anything. Make WAR on any negative thought, anxiety, sadness and embrace life, motivation, and joy.&lt;/p&gt;
+&lt;p&gt;The good news about all this, is that there is no good way of doing things, don&amp;rsquo;t listen to people who tells you that you have to wake up at 5am, do tremendous sport and never allow yourself some rest.&lt;br&gt;
+This is bullshit, do what the hell you want to do, as long as it makes you happy. And if you are happy, you will be able to help others. But help yourself first. Just try to push yourself a little bit everyday, in that way, you will be proud of yourself (if it&amp;rsquo;s not already the case).&lt;/p&gt;
+&lt;p&gt;#3 - Know what you want&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s important not to disperse yourself, focus helps you to be efficient and to learn faster and better. But to do that, you&amp;rsquo;ll have to know what you want to do. What are your milestones objectives and your goals (in life and in dev.)&lt;br&gt;
+I&amp;rsquo;ve wasted so much time trying to learn a wide range of subjects.  It&amp;rsquo;s a good habit, but to build your general knowledge (see point 5), not to master a specific subject.&lt;/p&gt;
+&lt;p&gt;#4 - Invest on boredom&lt;/p&gt;
+&lt;p&gt;A creative mind is a mind that knows the importance of boredom. When you do nothing (and I&amp;rsquo;m not talking about thinking about nothing, but to let your mind be free of constraint), your brain use that time to build better connections, learns to be creative and thinks freely of things you can&amp;rsquo;t because of too many distractions the modern world offers. (that is good but like everything, too much is no good.)&lt;/p&gt;
+&lt;p&gt;#5 - Build general knowledge&lt;/p&gt;
+&lt;p&gt;Build general knowledge from a very wide number of sources. What makes a difference between two specialists, sometimes, is the capacity of being interested in other things. That way, you can make bridges between many subjects build ideas, ways of thinking and qualities that will be extremly usefull for you and for the people who work (or will work) with you.&lt;/p&gt;
+&lt;p&gt;#Bonus&lt;/p&gt;
+&lt;p&gt;Be patient, have fun and listen to others only to take what is usefull and throw the rest away.&lt;br&gt;
+One last thing: Like every subjects, things tend to be more subtle than exposed here. For example, sometimes, you will have to blindly believe to trusted mentors, who can make you evolve like you wouldn&amp;rsquo;t alone, or not to fall in the trap of being a teacher to others too early, it&amp;rsquo;s not good for you if you&amp;rsquo;re not experienced enough.&lt;br&gt;
+But that will be a post on it&amp;rsquo;s own soon.&lt;/p&gt;
+&lt;p&gt;Thanks for reading! Take care.&lt;/p&gt;
+&lt;p&gt;PS: I don&amp;rsquo;t assume that you weren&amp;rsquo;t aware of all that. But if it can be usefull to someone, my goal will be fullfilled!&lt;/p&gt;
+&lt;p&gt;&amp;ndash; English is not my native language, so please excuse the many mistakes I can make while writing&amp;hellip; &amp;ndash;&lt;/p&gt;
+</description>
     </item>
     
   </channel>
